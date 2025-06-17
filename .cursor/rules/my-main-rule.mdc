@@ -1,0 +1,35 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+# my cursor rule
+
+This file configures Cursor's behavior to meet specific requirements.
+
+## General Rules
+
+- **Contextual Reading:** Always read all relevant documents in the project before answering, to obtain sufficient context.
+- **Network Information Retrieval:** When necessary, retrieve more information and update knowledge by searching the web.
+
+## MCP Usage
+
+Use the following MCP protocols and emphasize:
+
+1. **markdown mcp:**
+   - Purpose: Convert PDF files to Markdown format.
+   - Trigger: When the user requests information from a PDF or when PDF content needs to be converted to a more readable format.
+
+2. **sequential-thinking mcp:**
+   - Purpose: Break down complex problems into smaller, more manageable parts, and reason step-by-step to improve the logic and accuracy of answers.
+   - Trigger: When the user's question involves multiple steps or requires sequential reasoning. This helps provide more accurate and organized responses.
+
+## Example Workflow
+
+1. The user raises a question.
+2. Cursor checks all relevant documents in the project.
+3. Cursor retrieves information from the web if necessary.
+4. If a file contains PDF content, Cursor uses markdown mcp to convert it to Markdown.
+5. Cursor uses sequential-thinking mcp to break down complex problems and reason step-by-step.
+6. Cursor provides the user with a clear and organized answer based on the above steps. 
