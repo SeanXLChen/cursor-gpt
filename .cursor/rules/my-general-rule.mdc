@@ -3,7 +3,6 @@ description:
 globs: 
 alwaysApply: true
 ---
-
 # my cursor rule
 
 This file configures Cursor's behavior to meet specific requirements.
