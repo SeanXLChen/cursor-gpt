@@ -1,17 +1,13 @@
 ---
 description: 
 globs: 
-alwaysApply: true
+alwaysApply: false
 ---
-# my cursor rule
-
-This file configures Cursor's behavior to meet specific requirements.
-
-## General Rules
+# basic rule
+## Rules
 
 - **Contextual Reading:** Always read all relevant documents in the project before answering, to obtain sufficient context.
 - **Network Information Retrieval:** When necessary, retrieve more information and update knowledge by searching the web.
-
 ## Example Workflow
 1. The user raises a question.
 2. Cursor checks all relevant documents in the project.
