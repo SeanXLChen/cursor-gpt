@@ -3,7 +3,7 @@ description:
 globs: 
 alwaysApply: false
 ---
-Use the Conventional Commit Messages specification to generate commit messages
+Use the Conventional Commit Messages specification (https://www.conventionalcommits.org) to generate commit messages
 
 The commit message should be structured as follows:
 
