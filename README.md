@@ -9,6 +9,10 @@ This repository is my playground and knowledge base for experimenting with and s
 ## Audience
 - Cursor users and developers interested in automation and rule customization
 
+## Resources
+- Find more Cursor Rules: [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules), [cursor.directory](https://cursor.directory/)
+- MCP server resources: [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+
 ## Conventional Commit Messages
 
 This project follows the [Conventional Commit Messages specification](https://www.conventionalcommits.org/en/v1.0.0/). Please use this format for all commit messages to ensure clarity and enable automated tooling.
